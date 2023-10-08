@@ -5,7 +5,7 @@ import { Typography } from "@material-tailwind/react";
 const Header = () => {
     return (
         <div >
-         <div className="carousel w-full h-[80vh] ">
+         <div className="carousel w-full md:h-[80vh] ">
   <div id="slide1" className="carousel-item relative w-full">
     <img src="carusol1.jpg" className="w-full" />
     <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75">
@@ -13,9 +13,9 @@ const Header = () => {
         <Typography
               variant="h1"
               color="white"
-              className="mb-4 text-3xl font-bold leading-5 md:text-4xl lg:text-6xl"
+              className="mb-4 text-2xl font-bold leading-5 md:text-4xl lg:text-6xl"
             >
-              Your Event <br />
+              <span >Your Event</span> <br />
               Our <span className="text-[#FF037C]">Responsibility.</span>
             </Typography>
 
@@ -33,7 +33,7 @@ const Header = () => {
         <Typography
               variant="h1"
               color="white"
-              className="mb-4 text-3xl font-bold leading-5 md:text-4xl lg:text-6xl"
+              className="mb-4 text-2xl font-bold leading-5 md:text-4xl lg:text-6xl"
             >
               Your Event <br />
               Our <span className="text-[#FF037C]">Responsibility.</span>
@@ -52,7 +52,7 @@ const Header = () => {
         <Typography
               variant="h1"
               color="white"
-              className="mb-4 text-3xl font-bold leading-5 md:text-4xl lg:text-6xl"
+              className="mb-4 text-2xl font-bold leading-5 md:text-4xl lg:text-6xl"
             >
               Your Event <br />
               Our <span className="text-[#FF037C]">Responsibility.</span>
@@ -72,7 +72,7 @@ const Header = () => {
         <Typography
               variant="h1"
               color="white"
-              className="mb-4 text-3xl font-bold leading-5 md:text-4xl lg:text-6xl"
+              className="mb-4 text-2xl font-bold leading-5 md:text-4xl lg:text-6xl"
             >
               Your Event <br />
               Our <span className="text-[#FF037C]">Responsibility.</span>
