@@ -3,12 +3,12 @@ import Navbar from "../Shared/Navbar/Navbar";
 
 const Root = () => {
   return (
-    <div>
+    <div className="font-poppins">
         <div className="max-w-screen-xl mx-auto">
         <Navbar ></Navbar>
         </div>
       
-      <div className="max-w-screen-xl mx-auto p-5 md:p-10 my-10">
+      <div >
       
         <Outlet></Outlet>
       </div>
