@@ -5,7 +5,7 @@ import { Typography } from "@material-tailwind/react";
 const Header = () => {
     return (
         <div >
-         <div className="carousel w-full md:h-[80vh] ">
+         <div className="carousel w-full md:h-[90vh] ">
   <div id="slide1" className="carousel-item relative w-full">
     <img src="carusol1.jpg" className="w-full" />
     <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75">
