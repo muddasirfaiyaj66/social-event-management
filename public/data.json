@@ -1,0 +1,68 @@
+[
+    {
+      "event_type": "Wedding",
+      "description": "A joyous celebration of love and commitment between two people.",
+      "image_url": "https://i.ibb.co/BZWPXZf/wedding-couple-dancing-tent.jpg",
+      "vector_url": "https://i.ibb.co/VxX38bw/9793370-4242548.jpg",
+      "date": "2023-05-20",
+      "location": "Grand Hotel, New York",
+      "organizer": "John and Sarah Smith",
+      "contact_email": "johnsarah@example.com",
+      "price": 5000.00
+    },
+    {
+      "event_type": "Birthday Party",
+      "description": "A fun-filled day to celebrate another year of life!",
+      "image_url": "https://i.ibb.co/QFn0jXF/birthday-concept-with-friends-table.jpg",
+      "vector_url": "https://i.ibb.co/VwNSC6P/6184388-3099557.jpg",
+      "date": "2023-08-15",
+      "location": "Smith Family Backyard, Los Angeles",
+      "organizer": "Emily Johnson",
+      "contact_email": "emily@example.com",
+      "price": 500.00
+    },
+    {
+      "event_type": "Anniversary",
+      "description": "A romantic evening to commemorate years of togetherness.",
+      "image_url": "https://i.ibb.co/zRdJyHF/those-are-balloons-you.jpg",
+      "vector_url": "https://i.ibb.co/XXTyJyS/couple-party-having-fun-holding-balloons.jpg",
+      "date": "2023-09-10",
+      "location": "The Candlelight Restaurant, Chicago",
+      "organizer": "David and Lisa Brown",
+      "contact_email": "davidlisa@example.com",
+      "price": 800.00
+    },
+    {
+      "event_type": "Engagement Party",
+      "description": "A prelude to a lifetime of love and commitment.",
+      "image_url": "https://i.ibb.co/dcpJdCH/front-view-happy-married-couple-loving-man-woman-cutting-big-white-cake-wedding-ceremony-night-stand.jpg",
+      "vector_url": "https://i.ibb.co/YT09KM2/2994492-437941-PEUFPW-828.jpg",
+      "date": "2023-06-30",
+      "location": "The Garden Pavilion, Miami",
+      "organizer": "Michael and Jessica Taylor",
+      "contact_email": "michaeljessica@example.com",
+      "price": 300.00
+    },
+    {
+      "event_type": "Retirement Party",
+      "description": "A farewell celebration to honor years of hard work and dedication.",
+      "image_url": "https://i.ibb.co/XJsKHp8/happy-men-bachelor-party.jpg",
+      "vector_url": "https://i.ibb.co/ZTXWtDN/13404268-5233217.jpg",
+      "date": "2023-07-25",
+      "location": "Community Center Hall, San Francisco",
+      "organizer": "Robert Anderson",
+      "contact_email": "robert@example.com",
+      "price": 400.00
+    },
+    {
+      "event_type": "Baby Shower",
+      "description": "A special occasion to welcome a new life into the world.",
+      "image_url": "https://i.ibb.co/Xsqh0HW/pexels-paola-vasquez-3593432.jpg",
+      "vector_url": "https://i.ibb.co/LrvyZhv/5005975-46877.jpg",
+      "date": "2023-04-05",
+      "location": "Graceful Garden Banquet Hall, Seattle",
+      "organizer": "Jennifer and Mark White",
+      "contact_email": "jennifermark@example.com",
+      "price": 200.00
+    }
+  ]
