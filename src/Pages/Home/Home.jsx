@@ -20,6 +20,10 @@ const Home = () => {
                     allData.map(data => <EventCard key={data.id} data={data}> </EventCard> )
                 }
             </div>
+
+            <div className="max-w-screen-xl mx-auto py-10 px-5">
+                <img src="/public/bannerlow.jpg" alt="" />
+            </div>
             </div>
 
             

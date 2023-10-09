@@ -19,6 +19,9 @@ const Navbar = () => {
                <li> <NavLink to='/about' className={({ isActive, isPending }) =>
     isPending ? "pending" : isActive ? "bg-[#FF037C]  text-white " : ""
   }>About</NavLink></li>
+               <li> <NavLink to='/services' className={({ isActive, isPending }) =>
+    isPending ? "pending" : isActive ? "bg-[#FF037C]  text-white " : ""
+  }>Services</NavLink></li>
               
                <li> <NavLink to='/gallery' className={({ isActive, isPending }) =>
     isPending ? "pending" : isActive ? "bg-[#FF037C]  text-white " : ""
@@ -42,8 +45,8 @@ const Navbar = () => {
               {navLinks}
             </ul>
           </div>
-        <div >
-          <img className="w-[120px] md:w-[150px] flex items-center justify-center" src="/logo.png" alt="" />
+        <div className="hidden md:flex">
+          <img className="w-[120px]  md:w-[150px] flex items-center justify-center" src="/logo.png" alt="" />
         </div>
         </div>
         <div className="navbar-center hidden  md:flex">
@@ -63,7 +66,7 @@ const Navbar = () => {
         user ? 
         <div> 
           
-      <button onClick={handleSignOut} className="btn ml-2">Sign Out</button>
+      <button onClick={handleSignOut} className="btn ml-2 bg-[#7800FF] text-white">Sign Out</button>
         </div>
        
         :

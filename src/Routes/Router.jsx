@@ -8,6 +8,8 @@ import Login from "../Pages/LogIn/Login";
 import Register from "../Pages/Register/Register";
 import About from "../Pages/About/About";
 import Employee from "../Pages/Employee/Employee";
+import Service from "../Pages/Service/Service";
+import Gallery from "../Pages/Gallery/Gallery";
 
 const Route = createBrowserRouter([
     {
@@ -49,6 +51,20 @@ const Route = createBrowserRouter([
                 </PrivateRoutes>,
                 loader: () => fetch('/employee.json')
 
+            }, 
+            {
+                path: '/services',
+                element:  <PrivateRoutes>
+                    <Service></Service>
+                </PrivateRoutes>,
+                loader: () => fetch('/data.json')
+            },
+            {
+                path: '/gallery',
+                element: <PrivateRoutes>
+                    <Gallery></Gallery>
+                </PrivateRoutes>,
+                loader: () => fetch('/gallery.json')
             }
         ]
 
