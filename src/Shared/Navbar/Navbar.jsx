@@ -60,7 +60,7 @@ const Navbar = () => {
         <div data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000" className="w-10 rounded-full">
-          <img src={user? "/public/user1.png" : "/nouser.png" } />
+          <img src={user? "/user1.png" : "/nouser.png" } />
         </div>
       </label>
 
