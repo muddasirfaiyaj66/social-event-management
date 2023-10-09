@@ -7,7 +7,7 @@ const Header = () => {
         <div >
          <div className="carousel w-full md:h-[90vh] ">
   <div id="slide1" className="carousel-item relative w-full">
-    <img src="carusol1.jpg" className="w-full" />
+    <img src="/carusol1.jpg" className="w-full" />
     <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75">
         <div className="w-3/4 text-center md:w-2/4">
         <Typography
@@ -27,7 +27,7 @@ const Header = () => {
     </div>
   </div> 
   <div id="slide2" className="carousel-item relative w-full">
-    <img src="carusol2.jpg" className="w-full" />
+    <img src="/carusol2.jpg" className="w-full" />
     <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75">
         <div className="w-3/4 text-center md:w-2/4">
         <Typography
@@ -46,7 +46,7 @@ const Header = () => {
     </div>
   </div> 
   <div id="slide3" className="carousel-item relative w-full">
-    <img src="carusol3.jpg" className="w-full" />
+    <img src="/carusol3.jpg" className="w-full" />
     <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75">
         <div className="w-3/4 text-center md:w-2/4">
         <Typography
@@ -66,7 +66,7 @@ const Header = () => {
     </div>
   </div> 
   <div id="slide4" className="carousel-item relative w-full">
-    <img src="carusol4.jpg" className="w-full" />
+    <img src="/carusol4.jpg" className="w-full" />
     <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75">
         <div className="w-3/4 text-center md:w-2/4">
         <Typography

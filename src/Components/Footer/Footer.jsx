@@ -1,10 +1,10 @@
 const Footer = () => {
     return (
         <div>
-            <footer className=" bg-neutral  text-neutral-content shadow-xl">
+            <footer className=" flex justify-end  bg-neutral  text-neutral-content shadow-xl">
  <div className="max-w-screen-xl mx-auto footer p-10 items-center  ">
  <aside>
-    <img src="footer.png" alt="" className="w-[200px] -ml-[50px] md:ml-0" />
+    <img src="/footer.png" alt="" className="w-[200px] -ml-[50px] md:ml-0" />
    
   </aside> 
   <nav>

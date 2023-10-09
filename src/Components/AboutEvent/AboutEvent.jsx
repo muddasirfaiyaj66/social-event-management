@@ -18,7 +18,7 @@ const AboutEvent = () => {
             </p>
           </div>
           <div className="flex flex-row-reverse lg:mt-0 lg:col-span-5 lg:flex">
-            <img src="aboutEvent.jpg" alt="mockup" />
+            <img src="/aboutEvent.jpg" alt="mockup" />
           </div>
         </div>
       </section>
@@ -39,7 +39,7 @@ const AboutEvent = () => {
             </p>
           </div>
           <div className="flex flex-row-reverse lg:mt-0 lg:col-span-5 lg:flex">
-            <img src="eventMobile.jpg" alt="mockup" />
+            <img src="/eventMobile.jpg" alt="mockup" />
           </div>
         </div>
       </section>
