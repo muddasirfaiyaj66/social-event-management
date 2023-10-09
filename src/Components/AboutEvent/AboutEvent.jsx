@@ -1,6 +1,7 @@
 const AboutEvent = () => {
   return (
-    <div>
+    <div data-aos="fade-up"
+    data-aos-anchor-placement="bottom-bottom">
       <section className="hidden md:flex bg-gradient-to-r from-[#7800FF] to-[ #FF03FF] my-10">
         <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div className="mr-auto place-self-center lg:col-span-7">

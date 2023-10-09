@@ -3,7 +3,7 @@
 const EmployeeCard = ({em}) => {
     const {name, photo, position} = em || {};
     return (
-        <div>
+        <div  data-aos="zoom-in-left">
           
   
           <div className="text-center text-gray-500 dark:text-gray-400">

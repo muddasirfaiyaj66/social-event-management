@@ -71,7 +71,8 @@ const Login = () => {
   
    
     return (
-      <div>
+      <div data-aos="fade-up"
+      data-aos-duration="3000">
        
   
         <div className="justify-center lg:w-1/2 md:w-3/4 my-10 mx-auto bg-[#FFFFFF] shadow-xl p-5">

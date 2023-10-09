@@ -10,7 +10,8 @@ const Home = () => {
         <div>
             <Header></Header>
             <AboutEvent></AboutEvent>
-            <div className="my-10">
+            <div data-aos="fade-up"
+     data-aos-duration="3000" className="my-10">
             <div className="text-center space-y-5 ">
                 <h1 className="text-4xl font-bold text-[#FF037C]">Our Services </h1>
                 <p className="text-2xl font-medium ">We provide our best services to make your function more delightful</p>
@@ -21,7 +22,7 @@ const Home = () => {
                 }
             </div>
 
-            <div className="max-w-screen-xl mx-auto py-10 px-5">
+            <div data-aos="zoom-out-left" className="max-w-screen-xl mx-auto py-5 px-5">
                 <img src="/public/bannerlow.jpg" alt="" />
             </div>
             </div>

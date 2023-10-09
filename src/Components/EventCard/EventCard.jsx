@@ -4,7 +4,7 @@ const EventCard = ({data}) => {
 
     const {id,event_type,description,vector_url} = data;
     return (
-        <div>
+        <div data-aos="flip-up">
             
             <div className="relative flex h-[500px] flex-col rounded-xl bg-gradient-to-r from-[#ffffff] to-[#ebebeb] bg-clip-border text-gray-700 shadow-xl">
   <div className="relative mx-4 mt-4 h-96 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700">

@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="max-w-screen-xl mx-auto my-10 p-5 md:p-10 space-y-8">
+    <div  data-aos="fade-down-right"className="max-w-screen-xl mx-auto my-10 p-5 md:p-10 space-y-8">
       <div className="text-center text-3xl font-bold md:text-4xl ">
         <h1>Welcome to Social Event Management</h1>
       </div>

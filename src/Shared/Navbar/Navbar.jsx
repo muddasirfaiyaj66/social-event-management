@@ -35,7 +35,8 @@ const Navbar = () => {
                 
     </>
     return (
-        <div className="navbar bg-base-100 ">
+        <div  data-aos="fade-up"
+        data-aos-duration="1500" className="navbar bg-base-100 ">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost md:hidden">
@@ -56,8 +57,10 @@ const Navbar = () => {
         </div>
         <div className="navbar-end">
         <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-        <div className="w-10 rounded-full">
-          <img src={user? "/public/user1.png" : "/public/nouser.png" } />
+        <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" className="w-10 rounded-full">
+          <img src={user? "/public/user1.png" : "/nouser.png" } />
         </div>
       </label>
 

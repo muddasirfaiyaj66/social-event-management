@@ -93,7 +93,7 @@ const Register = () => {
      
     };
     return (
-      <div>
+      <div data-aos="zoom-out-down">
         
   
         <div className="justify-center lg:w-1/2 md:w-3/4 my-10 mx-auto bg-[#FFFFFF] shadow-xl p-5">

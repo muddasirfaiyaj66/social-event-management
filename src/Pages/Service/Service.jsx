@@ -5,7 +5,7 @@ import EventCard from '../../Components/EventCard/EventCard';
 const Service = () => {
     const allData = useLoaderData();
     return (
-        <div>
+        <div  data-aos="flip-left">
             <div className='text-3xl md:text-5xl text-center font-bold my-8'><span className='text-[#FF037C]'>OUR</span> SERVICES</div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 max-w-screen-xl mx-auto p-5 md:p-10 my-10">
                 {
