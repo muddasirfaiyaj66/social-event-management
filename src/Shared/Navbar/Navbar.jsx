@@ -16,10 +16,19 @@ const Navbar = () => {
                <li> <NavLink to='/' className={({ isActive, isPending }) =>
     isPending ? "pending" : isActive ? "bg-[#FF037C]  text-white " : ""
   }>Home</NavLink></li>
-               <li> <NavLink to='/about'>About</NavLink></li>
-               <li> <NavLink to='/services'>Services</NavLink></li>
-               <li> <NavLink to='/gallery'>Gallery</NavLink></li>
-               <li> <NavLink to='/contact'>Contact</NavLink></li>
+               <li> <NavLink to='/about' className={({ isActive, isPending }) =>
+    isPending ? "pending" : isActive ? "bg-[#FF037C]  text-white " : ""
+  }>About</NavLink></li>
+              
+               <li> <NavLink to='/gallery' className={({ isActive, isPending }) =>
+    isPending ? "pending" : isActive ? "bg-[#FF037C]  text-white " : ""
+  }>Gallery</NavLink></li>
+               <li> <NavLink to='/employee' className={({ isActive, isPending }) =>
+    isPending ? "pending" : isActive ? "bg-[#FF037C]  text-white " : ""
+  }>Employee</NavLink></li>
+   <li> <NavLink to='/register' className={({ isActive, isPending }) =>
+    isPending ? "pending" : isActive ? "bg-[#FF037C]  text-white " : ""
+  }>Register</NavLink></li>
                 
     </>
     return (
@@ -59,7 +68,7 @@ const Navbar = () => {
        
         :
         <Link to='/login'>
-         <button className="btn ml-2">Login</button>
+         <button className="btn ml-2 bg-gradient-to-r from-[#FF037C] to-[#7800FF] text-white">Login</button>
          </Link>
 
       }

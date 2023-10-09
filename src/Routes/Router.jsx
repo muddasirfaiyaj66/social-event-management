@@ -7,6 +7,7 @@ import Details from "../Components/Details/Details";
 import Login from "../Pages/LogIn/Login";
 import Register from "../Pages/Register/Register";
 import About from "../Pages/About/About";
+import Employee from "../Pages/Employee/Employee";
 
 const Route = createBrowserRouter([
     {
@@ -40,6 +41,14 @@ const Route = createBrowserRouter([
                 element: <PrivateRoutes>
                     <About></About>
                 </PrivateRoutes>
+            }, 
+            {
+                path:'/employee',
+                element:<PrivateRoutes>
+                     <Employee></Employee>
+                </PrivateRoutes>,
+                loader: () => fetch('/employee.json')
+
             }
         ]
 

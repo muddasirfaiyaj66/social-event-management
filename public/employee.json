@@ -1,0 +1,114 @@
+[
+    {
+      "name": "John Doe",
+      "photo": "https://randomuser.me/api/portraits/men/78.jpg",
+      "contactNumber": "+1 (123) 456-7890",
+      "email": "john.doe@example.com",
+      "position": "Event Planner"
+    },
+    {
+      "name": "Jane Smith",
+      "photo": "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png",
+      "contactNumber": "+1 (987) 654-3210",
+      "email": "jane.smith@example.com",
+      "position": "Decor Specialist"
+    },
+    {
+      "name": "Robert Johnson",
+      "photo": "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png",
+      "contactNumber": "+1 (555) 123-4567",
+      "email": "robert.johnson@example.com",
+      "position": "Catering Manager"
+    },
+    {
+      "name": "Emily Wilson",
+      "photo": "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png",
+      "contactNumber": "+1 (333) 888-7777",
+      "email": "emily.wilson@example.com",
+      "position": "Marketing Coordinator"
+    },
+    {
+      "name": "Oliver Davis",
+      "photo": "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/thomas-lean.png",
+      "contactNumber": "+1 (555) 555-5555",
+      "email": "oliver.davis@example.com",
+      "position": "Photographer"
+    },
+    {
+      "name": "Sophia Adams",
+      "photo": "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/sofia-mcguire.png",
+      "contactNumber": "+1 (777) 888-9999",
+      "email": "sophia.adams@example.com",
+      "position": "Music DJ"
+    },
+    {
+      "name": "William Turner",
+      "photo": "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/neil-sims.png",
+      "contactNumber": "+1 (111) 222-3333",
+      "email": "william.turner@example.com",
+      "position": "Floral Designer"
+    },
+    {
+      "name": "Emma Wilson",
+      "photo": "https://i.ibb.co/y6t5Dmb/member-7.png",
+      "contactNumber": "+1 (333) 444-5555",
+      "email": "emma.wilson@example.com",
+      "position": "Event Coordinator"
+    },
+    {
+      "name": "Liam Parker",
+      "photo": "https://i.ibb.co/gRQGJKK/roberta-casas.png",
+      "contactNumber": "+1 (999) 888-7777",
+      "email": "liam.parker@example.com",
+      "position": "Logistics Manager"
+    },
+    {
+      "name": "Ava Carter",
+      "photo": "https://i.ibb.co/ydc5nZT/et-Bf-Qvhs-400x400.jpg",
+      "contactNumber": "+1 (777) 999-8888",
+      "email": "ava.carter@example.com",
+      "position": "Graphic Designer"
+    },
+    {
+      "name": "Noah Martin",
+      "photo": "https://i.ibb.co/kJg3Mfy/images.jpg",
+      "contactNumber": "+1 (333) 222-1111",
+      "email": "noah.martin@example.com",
+      "position": "Security Coordinator"
+    },
+    {
+      "name": "Harper Lewis",
+      "photo": "https://i.ibb.co/270k3Vx/member-1.png",
+      "contactNumber": "+1 (444) 333-2222",
+      "email": "harper.lewis@example.com",
+      "position": "Public Relations"
+    },
+    {
+      "name": "Mia Clark",
+      "photo": "https://i.ibb.co/5WYMtrv/lana-byrd.png",
+      "contactNumber": "+1 (888) 777-9999",
+      "email": "mia.clark@example.com",
+      "position": "Social Media Manager"
+    },
+    {
+      "name": "Ethan King",
+      "photo": "https://i.ibb.co/Jxykrnx/images-1.jpg",
+      "contactNumber": "+1 (555) 666-7777",
+      "email": "ethan.king@example.com",
+      "position": "Technical Support"
+    },
+    {
+      "name": "Avery Turner",
+      "photo": "https://i.ibb.co/5cLdwCD/images-2.jpg",
+      "contactNumber": "+1 (777) 111-2222",
+      "email": "avery.turner@example.com",
+      "position": "Event Coordinator"
+    },
+    {
+      "name": "Olivia Harris",
+      "photo": "https://i.ibb.co/pLJ4m62/wales-1.jpg",
+      "contactNumber": "+1 (222) 333-4444",
+      "email": "olivia.harris@example.com",
+      "position": "Logistics Manager"
+    }
+  ]
