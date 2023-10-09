@@ -29,9 +29,7 @@ const Navbar = () => {
                <li> <NavLink to='/employee' className={({ isActive, isPending }) =>
     isPending ? "pending" : isActive ? "bg-[#FF037C]  text-white " : ""
   }>Employee</NavLink></li>
-   <li> <NavLink to='/register' className={({ isActive, isPending }) =>
-    isPending ? "pending" : isActive ? "bg-[#FF037C]  text-white " : ""
-  }>Register</NavLink></li>
+   
                 
     </>
     return (
