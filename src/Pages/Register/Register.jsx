@@ -43,7 +43,7 @@ const Register = () => {
       else if(!/[!@#$%^&*()_+{}\[\]:;<>,.?~\\-]/.test(password)){
         Swal.fire({
           icon: 'error',
-          title: 'Oops...',
+          title: 'OOps...',
           text:'Include at least one special character, such as "@" or "#"',
         
         })
@@ -53,7 +53,7 @@ const Register = () => {
       else if(!accepted){
         Swal.fire({
           icon: 'error',
-          title: 'Oops...',
+          title: 'Oops..',
           text:"Please Accept Our Terms and Conditions!!",
         
         })
@@ -70,7 +70,7 @@ const Register = () => {
         
         Swal.fire({
           icon: 'success',
-          title: 'Oops...',
+          title: 'Congrats!!!',
           text:"User Created Successfully",
         
         })
