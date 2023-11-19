@@ -1,10 +1,12 @@
 import { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { AuthContext } from "../../Providers/AuthProviders";
-
+import useThemeToggle from "../../Hook/UseThemeToggle";
+import { CiDark,CiLight } from "react-icons/ci";
 const Navbar = () => {
 
   const {user,logOut} =useContext(AuthContext);
+  const{theme, toggleTheme} = useThemeToggle()
   const handleSignOut = () =>{
     logOut()
     .then()
@@ -45,7 +47,11 @@ const Navbar = () => {
             </ul>
           </div>
         <div className="hidden md:flex">
-          <img className="w-[120px]  md:w-[150px] flex items-center justify-center" src="/logo.png" alt="" />
+
+        {
+            theme === "dark" ?  <img src='/footer.png'  className='w-[120px] md:w-[150px] flex items-center justify-center' alt="" /> :<img src="/logo.png"  className='w-[120px] md:w-[150px] flex items-center justify-center' alt="" />
+          }
+          
         </div>
         </div>
         <div className="navbar-center hidden  md:flex">
@@ -54,7 +60,11 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-
+        <div className="mr-3">
+            <button className="btn btn-md" onClick={toggleTheme}>
+            <span className="text-xl">{theme === "light" ? <CiDark></CiDark> : theme==="dark"? <CiLight></CiLight> : ''}</span>
+            </button>
+          </div>
 
         {user?.email ? (
               <div className="dropdown dropdown-end">
@@ -71,7 +81,7 @@ const Navbar = () => {
                   className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
                 >
                   <li>
-                    <button className="btn btn-sm text-black mb-3  btn-ghost">
+                    <button className="btn btn-sm dark:text-white text-black mb-3  btn-ghost">
                       {user.displayName}
                     </button>
                   </li>
