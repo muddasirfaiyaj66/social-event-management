@@ -2,7 +2,7 @@
 ## Social Event Management 
 
 ## 
-Code Link: https://github.com/programming-hero-web-course-4/b8a9-event-management-muddasirfaiyaj66
+
 
 live link: https://social-event-management-373d1.web.app/
 
