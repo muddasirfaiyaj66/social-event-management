@@ -9,7 +9,7 @@ const Register = () => {
   
   
   const [showPassword, setShowPassword]=useState(false);
-    const {createUser}= useContext(AuthContext);
+    const {createUser,handleUpdateProfile}= useContext(AuthContext);
     const location = useLocation();
     const navigate = useNavigate();
     const handleRegister = (e) => {
@@ -18,6 +18,8 @@ const Register = () => {
       const email = form.get("email");
       const password = form.get("password");
       const accepted = e.target.terms.checked;
+      const name = e.target.name.value;
+      const image = e.target.image.value;
      
       
       
@@ -65,16 +67,20 @@ const Register = () => {
       //create user 
       createUser(email,password)
       .then(result => {
-        console.log(result);
-     
-     
-        
-        Swal.fire({
-          icon: 'success',
-          title: 'Congrats!!!',
-          text:"User Created Successfully",
-        
+        handleUpdateProfile(name, image)
+        .then(()=>{
+          Swal.fire({
+            icon: 'success',
+            title: 'Congrats!!!',
+            text:"User Created Successfully",
+          
+          })
         })
+        
+     
+     
+        
+       
            //navigate after register in 
     navigate(location?.state ? location.state : '/' );
         
@@ -108,7 +114,18 @@ const Register = () => {
           </div>
           <form onSubmit={handleRegister} className="card-body  ">
            
-            
+          <div className="form-control">
+            <label className="label">
+              <span className="label-text font-bold">Name</span>
+            </label>
+            <input
+              type="text"
+              name="name"
+              placeholder="Enter Your Name"
+              className="input input-bordered"
+              required
+            />
+          </div>
             <div className="form-control">
               <label className="label">
                 <span className="label-text font-bold">Email</span>
@@ -136,6 +153,17 @@ const Register = () => {
               <span className=" flex mt-12 mr-2 right-0 justify-end  text-2xl absolute  " onClick={() =>setShowPassword(!showPassword)}>{ showPassword ? <BiHide></BiHide> : <BiShowAlt></BiShowAlt>}</span>
 
             </div>
+            <div className="form-control">
+            <label className="label">
+              <span className="label-text font-bold">Photo Url</span>
+            </label>
+            <input
+              type="text"
+              name="image"
+              placeholder="Enter your photo url"
+              className="input input-bordered"
+            />
+          </div>
             <div className="flex gap-2 text-sm mt-5 text-[#706F6F]">
              
               <p>
