@@ -1,8 +1,10 @@
 import React from "react";
+import HelmetTitle from "../../Components/HelmetTitle";
 
 const About = () => {
   return (
     <div  data-aos="fade-down-right"className="max-w-screen-xl mx-auto my-10 p-5 md:p-10 space-y-8">
+      <HelmetTitle title={"About"}></HelmetTitle>
       <div className="text-center text-3xl font-bold md:text-4xl ">
         <h1>Welcome to Social Event Management</h1>
       </div>

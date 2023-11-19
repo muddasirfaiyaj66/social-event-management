@@ -2,12 +2,14 @@ import { useLoaderData } from "react-router-dom";
 import AboutEvent from "../../Components/AboutEvent/AboutEvent";
 import Header from "../../Components/Header/Header";
 import EventCard from "../../Components/EventCard/EventCard";
+import HelmetTitle from "../../Components/HelmetTitle";
 
 const Home = () => {
     const allData = useLoaderData();
 
     return (
         <div>
+            <HelmetTitle title={"Home"}></HelmetTitle>
             <Header></Header>
             <AboutEvent></AboutEvent>
             <div data-aos="fade-up"
@@ -23,7 +25,7 @@ const Home = () => {
             </div>
 
             <div data-aos="zoom-out-left" className="max-w-screen-xl mx-auto py-5 px-5">
-                <img src="/public/bannerlow.jpg" alt="" />
+                <img src="/bannerlow.jpg" alt="" />
             </div>
             </div>
 

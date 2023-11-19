@@ -3,6 +3,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Providers/AuthProviders";
 import { BiShowAlt,BiHide } from "react-icons/bi";
 import Swal from "sweetalert2";
+import HelmetTitle from "../../Components/HelmetTitle";
 
 const Register = () => {
   
@@ -94,6 +95,7 @@ const Register = () => {
     };
     return (
       <div data-aos="zoom-out-down">
+        <HelmetTitle title={"Register"}></HelmetTitle>
         
   
         <div className="justify-center lg:w-1/2 md:w-3/4 my-10 mx-auto bg-[#FFFFFF] shadow-xl p-5">

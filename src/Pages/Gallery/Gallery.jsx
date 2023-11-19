@@ -1,10 +1,12 @@
 import { useLoaderData } from "react-router-dom";
 import GalleryCard from "./GalleryCard";
+import HelmetTitle from "../../Components/HelmetTitle";
 
 const Gallery = () => {
   const galleryData = useLoaderData();
   return (
     <div className="max-w-screen-xl mx-auto space-y-8">
+      <HelmetTitle title={"Gallery"}></HelmetTitle>
       <div className="text-center">
         <h1 className="text-2xl  md:text-4xl  lg:text-5xl font-bold">
           Explore Our Spectacular Events{" "}
