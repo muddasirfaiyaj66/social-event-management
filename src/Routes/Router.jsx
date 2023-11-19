@@ -29,15 +29,7 @@ const Route = createBrowserRouter([
                 </PrivateRoutes>,
                 loader: () => fetch('/data.json')
             },
-            {
-                path:'/login',
-                element:<Login></Login>
-            },
-            {
-                path:'/register',
-                element:<Register></Register>
-
-            }, 
+            
             {
                 path: '/about',
                 element: <PrivateRoutes>
@@ -68,6 +60,15 @@ const Route = createBrowserRouter([
             }
         ]
 
-    }
+    },
+    {
+        path:'/login',
+        element:<Login></Login>
+    },
+    {
+        path:'/register',
+        element:<Register></Register>
+
+    },
 ])
 export default Route;

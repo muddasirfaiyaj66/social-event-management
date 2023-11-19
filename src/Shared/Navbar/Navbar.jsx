@@ -54,28 +54,45 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-        <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-        <div data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000" className="w-10 rounded-full">
-          <img src={user? "/user1.png" : "/nouser.png" } />
-        </div>
-      </label>
 
-        
-      {
-        user ? 
-        <div> 
-          
-      <button onClick={handleSignOut} className="btn ml-2 bg-[#7800FF] text-white">Sign Out</button>
-        </div>
-       
-        :
-        <Link to='/login'>
-         <button className="btn ml-2 bg-gradient-to-r from-[#FF037C] to-[#7800FF] text-white">Login</button>
-         </Link>
 
-      }
+        {user?.email ? (
+              <div className="dropdown dropdown-end">
+                <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
+                  <div className="w-10 rounded-full">
+                    <img
+                      src={user.photoURL ? user.photoURL : "/nouser.png"}
+                      alt={user.displayName}
+                    />
+                  </div>
+                </label>
+                <ul
+                  tabIndex={0}
+                  className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+                >
+                  <li>
+                    <button className="btn btn-sm text-black mb-3  btn-ghost">
+                      {user.displayName}
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      className="btn btn-sm  btn-ghost bg-red-500 text-white font-bold"
+                      onClick={logOut}
+                    >
+                      Logout
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            ) : (
+              <Link to="/login">
+                <button  className="btn ml-2 bg-gradient-to-r from-[#FF037C] to-[#7800FF] text-white">
+                  Login
+                </button>
+              </Link>
+            )}
+      
         </div>
       </div>
     );
